@@ -1,0 +1,202 @@
+    1  git clone git@github.com:Codingis2much4me/turbo-journey.git
+    2  ssh-keygen -t RSA
+    3  ls
+    4  ls -a
+    5  ls -al
+    6  ls -als
+    7  cd .ssh
+    8  ls
+    9  cat known_hosts
+   10  cat id_rsa.pub
+   11  git clone git@github.com:Codingis2much4me/turbo-journey.git
+   12  ls
+   13  cd turbo-journey/
+   14  ls
+   15  ls -al
+   16  cd .git
+   17  ls
+   18  cd ..
+   19  cat sample.txt
+   20  echo "This file has been edited >> sample.txt
+   21  ls
+   22  cat sample.txt 
+   23  echo "This file has been edited" >> sample.txt
+   24  cat sample.txt
+   25  git add sample.txt
+   26  git status
+   27  git commit -m "Commited(1)"
+   28  git diff
+   29  echo "Something more" >> sample.txt
+   30  git diff
+   31  git branch
+   32  git push origin main
+   33  git status
+   34  git add .
+   35  git status
+   36  git commit -m "Commit(2)"
+   37  git push origin main
+   38  git config --global --edit
+   39  who
+   40  git config --global user.name
+   41  git config --global user.name "MB"
+   42  git config --global --edit
+   43  logout
+   44  git config --global core.user "MB"
+   45  git config --global --edit
+   46  ls
+   47  ls -al
+   48  cd .ssh
+   49  ls
+   50  cd turbo-journey/
+   51  ls
+   52  git remote -v
+   53  git log --oneline --decorate --graph --all
+   54  ls
+   55  cd .ssh
+   56  ls
+   57  cd 
+   58  git clone git@github.com:Codingis2much4me/cs102-git-essentials.git
+   59  ls
+   60  cd cs102-git-essentials/
+   61  touch git_commands
+   62  echo "git init 
+git clone
+git diff
+git log --oneline --decorate --graph
+git push
+git pull
+git commit" >> git_commands
+   63  ls
+   64  git add git_commands
+   65  git status
+   66  git commit -m "Added a file"
+   67  git push origin main
+   68  cd 
+   69  ls
+   70  git push origin main
+   71  git branch
+   72  cd cs102-git-essentials/
+   73  git push origin main
+   74  git branch
+   75  git push origin master
+   76  cd 
+   77  git log --oneline --decorate --graph
+   78  cd cs102-git-essentials/
+   79  git log
+   80  git log --oneline --decorate --graph
+   81  cd
+   82  ls
+   83  git clone git@github.com:Codingis2much4me/2203117-lab-exam.git
+   84  git add README.md
+   85  cd 2203117-lab-exam/
+   86  git add README.md
+   87  echo "Made by:
+roll number 2203117
+date:- 25/04/2023
+purpose: This repository is made for 2023 mid-semester lab evaluation" >> README.md
+   88  ls
+   89  cat README.md 
+   90  git origin
+   91  git status
+   92  cd
+   93  git clone git@github.com:tusharlone/cs102-git-essentials.git
+   94  ls
+   95  rm cs102-git-essentials/
+   96  rm -r cs102-git-essentials/
+   97  cd cs102-git-essentials/
+   98  LS
+   99  ls
+  100  cd 
+  101  ls
+  102  rm -d cs102-git-essentials/
+  103  rm -rd cs102-git-essentials/
+  104  ls
+  105  git clone git@github.com:tusharlone/cs102-git-essentials.git
+  106  ls
+  107  cd cs102-git-essentials/
+  108  ls
+  109  cd
+  110  ls
+  111  pwd
+  112  cd cs102-git-essentials/
+  113  cp ca_500.csv us_500.csv /users/ug22/2203117/2203117-lab-exam/
+  114  ls
+  115  cd
+  116  cd 2203117-lab-exam/
+  117  ls
+  118  cat ca_500.csv | less
+  119  wc -l ca_500.csv 
+  120  wc -l us_500.csv 
+  121  head -n 1 us_500.csv 
+  122  head -n 1 ca_500.csv 
+  123  cat ca_500.csv | grep 'Montreal'
+  124  wc -l ca_500.csv >> ca_city_Montreal.csv
+  125  wc -l us_500.csv >> ca_city_Montreal.csv 
+  126  head -n 1 ca_500.csv >> ca_city_Montreal.csv 
+  127  head -n 1 us_500.csv >> ca_city_Montreal.csv 
+  128  cat ca_500.csv | grep 'Montreal' >> ca_city_Montreal.csv 
+  129  ls
+  130  cat ca_city_Montreal.csv | less
+  131  cut -d, -f 5 ca_500.csv 
+  132  vim
+  133  ls
+  134  bash 2203117_data_filter.sh us_500.csv city Chicago
+  135  vim 2203117_data_filter.sh 
+  136  bash 2203117_data_filter.sh us_500.csv city Chicago
+  137  ls
+  138  cat t
+  139  rm t
+  140  vim 2203117_data_filter.sh 
+  141  bash 2203117_data_filter.sh 
+  142  bash 2203117_data_filter.sh us_500.csv city Miami
+  143  ls
+  144  cat s+city+Miami+.csv 
+  145  vim 2203117_data_filter.sh 
+  146  bash 2203117_data_filter.sh us_500.csv, city, Miami
+  147  bash 2203117_data_filter.sh us_500.csv city Miami
+  148  ls
+  149  cat s+city,+Miami+.csv 
+  150  rm s+*
+  151  ls
+  152  vim 2203117_data_filter.sh 
+  153  bash 2203117_data_filter.sh ca_500.csv city Montreal
+  154  ls
+  155  cat '"first+=city+=Montreal+=.csv' 
+  156  vim 2203117_data_filter.sh 
+  157  ls
+  158  rm '"first+=city+=Montreal+=.csv' 
+  159  bash 2203117_data_filter.sh 
+  160  ls
+  161  bash 2203117_data_filter.sh us_500.csv city Miami
+  162  vim 2203117_data_filter.sh 
+  163  ls
+  164  bash 2203117_data_filter.sh us_500.csv city Miami
+  165  vim 2203117_data_filter.sh 
+  166  bash 2203117_data_filter.sh 
+  167  bash 2203117_data_filter.sh us_500.csv city Miami
+  168  vim 2203117_data_filter.sh 
+  169  bash 2203117_data_filter.sh us_500.csv city Miami
+  170  ls
+  171  cat '"first+= city+= Miami.csv' 
+  172  clear
+  173  ls
+  174  rm '"first+= city+= Miami.csv' 
+  175  vim 2203117_data_filter.sh 
+  176  mkdir code
+  177  mkdir data
+  178  mv *.csv data
+  179  ls
+  180  cd data
+  181  ls
+  182  cd ..
+  183  mv 2203117_data_filter.sh code
+  184  ls
+  185  cd code
+  186  ls
+  187  vim 2203117_data_filter.sh 
+  188  bash 2203117_data_filter.sh 
+  189  bash 2203117_data_filter.sh us_500.csv city Miami
+  190  vim 2203117_data_filter.sh 
+  191  cd 
+  192  ls
+  193  history >> 2203117_history.txt
